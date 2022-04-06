@@ -2,23 +2,16 @@ package com.company;
 
 public class Person {
 
-    // so this is different for our class we must first initialize the properties before setting them in our constructor
-    public String firstName;
-    public String lastName;
-    public int age;
+    // Create a property for a firstName, lastName, and age
 
-    public Person(String firstName, String lastName, int age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
+    // Create a  constructor for our Person that can accept arguments for our properties
+    // and set those arguments to the properties of the instance
 
-    public String printFullName() {
-        return this.firstName + " " + this.lastName;
-    }
 
-    public String printInitials() {
-        return this.firstName.substring(0, 1) + "." + this.lastName.substring(0, 1) + ".";
-    }
+    // create a printFullName method that returns the firstName and lastName of this instance
+
+
+    // create a printInitials method that returns the first letter of the firstName for this instance
+    // and the first letter of the lastName for this instance, separated by a "."
 
 }
